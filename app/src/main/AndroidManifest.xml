@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dev.mgck.android_kotlin_tutorial_toast">
+
+  <application
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:supportsRtl="true"
+      android:theme="@style/Theme.Android_Kotlin_Tutorial_Toast">
+
+    <activity android:name=".MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity
+        android:name=".ToastActivity"
+        android:label="Toast"
+        android:parentActivityName=".MainActivity" />
+    <activity
+        android:name=".SnackBarActivity"
+        android:label="SnackBar"
+        android:parentActivityName=".MainActivity" />
+    <activity
+        android:name=".DialogActivity"
+        android:label="Dialogs"
+        android:parentActivityName=".MainActivity" />
+    <activity
+        android:name=".NotificantionActivity"
+        android:label="Notifications"
+        android:parentActivityName=".MainActivity" />
+    <activity
+        android:name=".NotificationResultActivity"
+        android:label="Notification Result"/>
+  </application>
+
+</manifest>

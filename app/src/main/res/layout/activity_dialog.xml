@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30sp"
+    tools:context=".DialogActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simple Dialog"
+        android:layout_margin="10dp"
+        android:onClick="showSimpleDialog"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single Choice Dialog"
+        android:layout_margin="10dp"
+        android:onClick="showSingleChoiceDialog"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog"
+        android:layout_margin="10dp"
+        android:onClick="showCustomDialog"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display Date Picker"
+        android:layout_margin="10dp"
+        android:onClick="displayDataPicker"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiple Choice Dialog"
+        android:layout_margin="10dp"
+        android:onClick="showMultipleChoiceDialog"/>
+
+</LinearLayout>

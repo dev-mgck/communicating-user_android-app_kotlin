@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Communication User App</string>
+    <string name="toast_duration">Toast Duration:</string>
+
+    <string name="LongMsg">
+    This is a notification style that can contain a large amount of text.
+    It works really well when you have a large amount of information
+    to display in the notification area and want the user to be able to
+    expand the message to see all of the content.
+  </string>
+
+    <string-array name="cores">
+        <item>Vermelho</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarelo</item>
+    </string-array>
+
+    <string-array name="linguagens">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>C</item>
+        <item>TypeScript</item>
+        <item>Python</item>
+        <item>Go</item>
+    </string-array>
+</resources>
